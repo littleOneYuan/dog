@@ -1,0 +1,204 @@
+.box {
+	width: 400px;
+	height: 400px;
+	margin: 100px auto 0;
+	/*background: #fcc;*/
+	/*border: 2px solid #fcc;*/
+	position: relative;
+	/*animation: myrotate linear 3s infinite;
+    -webkit-animation: myrotate linear 3s infinite; /* Safari 与 Chrome */*/
+}
+
+@keyframes myrotate
+{
+    0% {transform: rotate(0deg);}
+    25% {transform: rotate(90deg);}
+    50% {transform: rotate(180deg);}
+    75% {transform: rotate(270deg);}
+    100% {transform: rotate(360deg);}
+}
+ 
+@-webkit-keyframes myrotate /* Safari 与 Chrome */
+{
+    0% {transform: rotate(0deg);}
+    25% {transform: rotate(90deg);}
+    50% {transform: rotate(180deg);}
+    75% {transform: rotate(270deg);}
+    100% {transform: rotate(360deg);}
+}
+
+.head {
+	width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 3;
+    border: 4px solid #653620;
+    border-radius: 50%;
+    background: #ffef81;
+    top: 12%;
+}
+
+.ear {
+	width: 0;
+    height: 0;
+    position: relative;
+    border: 80px solid transparent;
+    /* transform: rotate(
+37deg
+); */
+    /* border-radius: 112% 600%; */
+    top: -195px;
+    left: 65px;
+    border-left-color: #ffef81;
+}
+
+.l-ear {
+	top: -265px;
+    z-index: 2;
+    border-width: 48px;
+    left: 69px;
+}
+
+.lb-ear {
+	top: -372px;
+    border-left-color: #653620;
+    z-index: 1;
+}
+
+.r-ear {
+	top: -520px;
+    z-index: 2;
+    border-width: 48px;
+    left: 241px;
+    transform: rotate(180deg);
+}
+
+.rb-ear {
+	top: -628px;
+    border-left-color: #653620;
+    z-index: 1;
+    transform: rotate(180deg);
+    left: 182px;
+}
+
+.eyebrow {
+	width: 40px;
+	height: 40px;
+	z-index: 4;
+	background: #fff;
+	border-radius: 50%;
+	position: absolute;
+	left: 300px;
+	top: 106px;
+}
+
+.l-eb {
+	left: 116px;
+}
+
+
+.r-eb {
+	left: 197px;
+}
+
+.eye {
+	width: 79px;
+    height: 38px;
+    z-index: 4;
+    position: absolute;
+    border: 5px solid #653620;
+    border-radius: 50%;
+    top: 156px;
+    background: #fff;
+    padding-right: 4px;
+}
+
+.eyeball {
+	width: 36px;
+    height: 36px;
+    background: #5d321f;
+    border-radius: 50%;
+    float: right;
+}
+
+.l-eye {
+	left: 65px;
+}
+
+.r-eye {
+	left: 200px;
+}
+
+.nose {
+	width: 50px;
+    height: 40px;
+    z-index: 5;
+    background: #5d321f;
+    border-radius: 53%;
+    position: absolute;
+    left: 150px;
+    top: 217px;
+}
+
+.mouse-up {
+	width: 5px;
+    height: 27px;
+    z-index: 5;
+    background: #5d321f;
+    position: absolute;
+    left: 173px;
+    top: 257px;
+}
+
+.mouse {
+	width: 65px;
+    height: 6px;
+    z-index: 5;
+    background: #5d321f;
+    position: absolute;
+    left: 144px;
+    top: 280px;
+    border-radius: 4px;
+}
+
+.mousebg {
+	width: 170px;
+    height: 119px;
+    z-index: 4;
+    background: #fff;
+    border-radius: 53%;
+    position: absolute;
+    left: 98px;
+    top: 208px;
+}
+
+.mustache {
+	position: absolute;
+    z-index: 5;
+    left: 112px;
+    height: 200px;
+    top: 245px;
+}
+
+.mm {
+	width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #463f11;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+
+.mm1 {
+	left: 20px;
+}
+.mm2 {
+	top: 20px;
+}
+
+.mm3 {
+	left: 0px;
+    top: 0px;
+}
